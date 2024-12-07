@@ -62,7 +62,7 @@ for group in groups:
 df = pd.DataFrame(all_data)
 
 # Save the DataFrame to a CSV file
-df.to_csv('OUINFO_Scrape_data.csv', index=False)
+df.to_csv('OUINFO_Total_Scrape.csv', index=False)
 
 # Display the DataFrame
 print(df)
